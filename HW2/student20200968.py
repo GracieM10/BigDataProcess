@@ -41,8 +41,6 @@ for i in range(len(ag) - 1 ):
     i += 1
 
 i = 0
-b = sorted(rank)
-
 for i in range(len(rank)):
     if A >= rank[i]:
         if Ap >= rank[i]:
