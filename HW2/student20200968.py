@@ -25,7 +25,6 @@ Cp = int(C * 0.5)
 rank = [] 
 grade = []
 ag = []
-sort = []
 row_id = 2
 i = 0; j = 0
 
@@ -41,9 +40,7 @@ for i in range(len(ag) - 1 ):
         j += 1
     i += 1
 
-i = 0; j = 0
-cnt = 0
-
+i = 0
 b = sorted(rank)
 
 for i in range(len(rank)):
